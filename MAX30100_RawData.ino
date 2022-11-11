@@ -81,7 +81,7 @@ void loop() {
       yr2 = yr1; r2 = r1; yr1 = yr0; r1 = red;
     }
     if(withBPF) {
-      Serial.print(-yi0); Serial.print('\n'); //Serial.println(-yr0);
+      Serial.print(-yi0); Serial.print('\n'); //Serial.println(-yr0); //salah satu output dihilangin utk mempermudah data streamer
     }
     else {
       Serial.print(ir); Serial.print('\n'); //Serial.println(red);
